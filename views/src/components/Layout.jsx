@@ -11,15 +11,13 @@ export default function Layout(props) {
                         <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/blogs">Search</Link>
+                        <Link to="/search">Search</Link>
                     </li>
                     <li>
-                        <Link to="/contact">Contracts</Link>
+                        <Link to="/contract">Contracts</Link>
                     </li>
                 </ul>
             </nav>
-
-            <Outlet />
         </>
     )
 };
