@@ -11,9 +11,10 @@ app.use(require("./src"))
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 
 app.get('/*', express.static("views/build"));
+app.get('/*', express.static("home"));
 app.get("/", (req, res) => {
     res.type("html");
-    res.send(fs.readFileSync("./views/build/index.html"))
+    res.send(fs.readFileSync("./home/index.html"))
 })
 
 app.listen(port, () => {
