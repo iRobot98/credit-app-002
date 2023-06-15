@@ -17,6 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "proxy": "https://irobot98-supreme-space-guide-jj9qpq4vv4wcjj9r-8080.preview.app.github.dev/",
   "eslintConfig": {
     "extends": [
       "react-app",
